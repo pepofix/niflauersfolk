@@ -26,7 +26,7 @@ body {
   margin: 0px auto;
   margin: 0 auto;
   top: 45px;
-  max-width: 150px;
+  max-width: 300px;
   transform: translate(-50%);
   z-index: 22222;
 }
@@ -199,6 +199,6 @@ color: black;
   }
 
   .fullscreen-bg__video {
-    background: url('https://niusdecures.org/video/spanderman.mp4') center center / cover no-repeat;
+    background: url('https://niusdecures.org/video/niflauersweb.mp4') center center / cover no-repeat;
   }
 }

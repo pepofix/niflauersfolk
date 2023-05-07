@@ -38,9 +38,14 @@ body {
   list-style-type: none;
   width: 100%;
   z-index: 33333;
+  background-size: auto;
+  background-color: white;
+
+
 }
 #menu li {
   display: inline-block;
+  text-transform: uppercase;
 }
 #menu li a {
   color: black;

@@ -1,11 +1,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #ffffff
+  background: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   text-align: center;
   image-orientation: center;
+
 	color: black;
 }
 *{
@@ -123,7 +124,6 @@ body {
   text-transform: uppercase;
   z-index: 44444;
 }
-
 .video {
   background-color: fffff;
   position: absolute;
@@ -206,4 +206,34 @@ color: black;
   .fullscreen-bg__video {
     background: url('https://niflauersfolk.cat/video/niflauersweb.mp4') center center / cover no-repeat;
   }
-}
+
+
+
+  .fullscreen-bg__video_spa {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  @media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video_spa  {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video_spa  {
+      width: auto;
+      height: 100%;
+    }
+  }
+  @media (max-width: 400px) {
+    .fullscreen-bg_spa   {
+      background: url('https://niflauersfolk.cat/img/niflauers.jpg') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video_spa  {
+      background: url('https://niflauersfolk.cat/video/niflauersweb.mp4') center center / cover no-repeat;
+    }

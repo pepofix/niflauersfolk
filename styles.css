@@ -50,8 +50,8 @@ body {
 }
 #menu li a {
   color: black;
-  text-decoration: none;
-  margin: 0 10px;
+  text-decoration: black;
+  margin: 0 0px;
 }
 #subtitle {
   text-align: center;

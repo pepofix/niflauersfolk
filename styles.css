@@ -44,7 +44,6 @@ body {
 }
 #menu li {
   display: inline-block;
-  text-transform: uppercase;
 }
 #menu li a {
   color: black;
